@@ -1,32 +1,147 @@
 #intro {
+  position: absolute;
+  display: grid;
   width: 100%;
   height: 750px;
   padding: 120px 163px 57px 163px;
   justify-content: center;
-  border: 1px solid;
+  
+  background: url(../assets/images/Background_Intro.png) no-repeat ;
+  background-size: cover;
+  
   
 }
 
 #info {
+  display: flex;
+  flex-direction: column;
   width: 1040px;
-  border: 1px solid;
+  margin-bottom: 94px;
   justify-content: center;
+  align-items: center;
+  
   
 }
 
 #avatar {
+  display:flex;
   width: 112px;
   height: 112px;
-  border: 1px solid red;
-  justify-content: center;
+  
+ 
+  margin-bottom: 56px;
 
+  img {
+    width: 112px;
+    height: 112px;
+  }
+}
 
-   
-   
+#text {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
 
+  h3{
+    display: inline;
+    color: var(--gray-500);
+    font: var(--subtitle);
+    text-align: center; 
+
+    span {
+      color: var(--red);
+    }
+  }
+
+  h1 {
+    display: inline;
+    color: var(--gray-600);
+    font: var(--title-lg);
+    text-align: center;
+    margin-block: 8px 20px;
+  }
+
+  p {
+    display: flex;
+    flex-direction: column;
+    color: var(--gray-400);
+    font-family: "Maven Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+}
+
+#tags {
+  display: flex;
+  
+  font-family: "Maven Pro";
+  font-size: 16px;
+  gap: 16px;
+  
+  a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .g {
+    background-color:var(--gray-300);
+    padding: 8px 16px;
+    border-radius: 999px;
+    gap: 8px;
     
     
+  }
+  .h {
+    background-color:var(--gray-300);
+    padding: 8px 16px;
+    border-radius: 999px;
+    gap: 8px;
+  }
+  .c {
+    background-color:var(--gray-300);
+    padding: 8px 16px;
+    border-radius: 999px;
+    gap: 8px;
+  }
+  .j {
+    background-color:var(--gray-300);
+    padding: 8px 16px;
+    border-radius: 999px;
+    gap: 8px;
+  }
+  .r {
+    background-color:var(--gray-300);
+    padding: 8px 16px;
+    border-radius: 999px;
+    gap: 8px;
+  }
+  .n {
+    background-color:var(--gray-300);
+    padding: 8px 16px;
+    border-radius: 999px;
+    gap: 8px;
+  }
 
   
+  img {
+    width: 24px;
+  }
 
+
+}
+
+#caret {
+  position: relative;
+  left: 50%;
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
+  
 }

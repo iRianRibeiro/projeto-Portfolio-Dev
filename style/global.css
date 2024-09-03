@@ -17,15 +17,20 @@
   --gray-500: #C0C4CE;
   --gray-600: #E2E4E9;
 
-  --title:  font-family: "Asap", sans-serif;
+  --title:  "Asap", sans-serif;
   --title-lg: bold 56px/120% var(--title);
   --title-md: bold 24px/120% var(--title);
   --title-sm: bold 16px/120% var(--title);
 
-  --subtitle: 400 20px/120% font-family: "Inconsolata", monospace;
+  --subtitle: 400 20px/120% "Inconsolata", monospace;
 
-  --text: font-family: "Maven Pro", sans-serif;
-  --text-md: 400 16px/140% var(--text)
-  --text-sm: 400 14px/140% var(--text)
+  --txt: "Maven Pro", sans-serif;
+  --txt-md: 400 16px/140% var(--txt)
+  --txt-sm: 400 14px/140% var(--txt)
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-500);
 }
 
