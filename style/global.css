@@ -29,6 +29,7 @@
   --txt-sm: 400 14px/140% var(--txt)
 }
 
+
 a {
   text-decoration: none;
   color: var(--gray-500);

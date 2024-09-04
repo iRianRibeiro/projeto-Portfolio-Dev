@@ -1,0 +1,78 @@
+#projects {
+  display: grid;
+  background-color: var(--gray-200);
+  padding: 72px 120px 144px 120px;
+}
+
+header {
+  h3{
+    font: var(--subtitle);
+    color: var(--red);
+    text-align: center;
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--gray-600);
+    text-align: center;
+    margin-block: 8px 56px;
+  }
+}
+
+
+#featured {
+  h3 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+  }
+
+  p {
+    font-family: "Maven Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400; ;
+    padding-bottom: 12px;
+    color: var(--gray-500);
+  }
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  width: 330px;
+  height: 280px;
+  padding: 12px;
+  
+
+  background-color: var(--gray-300);
+  border-radius: 12px;
+ 
+  
+  
+  figcaption {
+    position: absolute;
+    padding: 4px;
+    
+  }
+
+  img {
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+
+  }
+}
+  

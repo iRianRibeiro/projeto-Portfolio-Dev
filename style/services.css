@@ -1,0 +1,48 @@
+#services {
+  display: flex;
+  padding: 88px 120px 120px 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+  background-color: var(--gray-100);
+}
+
+#cards-s {
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  
+
+  h3 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-family: "Maven Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400; ;
+    padding-bottom: 12px;
+    color: var(--gray-500);
+  }
+
+  
+}
+
+.card-s {
+  padding: 20px;
+
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+
+  img {
+    width: 48px;
+    height: 48px;
+  }
+}

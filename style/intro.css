@@ -1,15 +1,12 @@
+
 #intro {
-  position: absolute;
   display: grid;
   width: 100%;
   height: 750px;
   padding: 120px 163px 57px 163px;
   justify-content: center;
-  
   background: url(../assets/images/Background_Intro.png) no-repeat ;
-  background-size: cover;
-  
-  
+  background-size: 100% 100%;  
 }
 
 #info {
@@ -137,7 +134,7 @@
 
 #caret {
   position: relative;
-  left: 50%;
+  left: 49%;
 
   img {
     width: 32px;
